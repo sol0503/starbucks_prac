@@ -35,3 +35,11 @@ window.addEventListener('scroll', _.throttle(function(){
   }
 },300)); //300은 0.3초 함수가 한번에 막 실행되는 걸 방지!(throttle)
 // _.throttle(함수,시간(ms))
+
+const fadeEls =document.querySelectorAll('.visual .fade-in');
+fadeEls.forEach(function(fadeEl,index){
+  gsap.to(fadeEl,1,{
+    delay:(index+1)*.7,
+    opacity: 1
+  });
+});
