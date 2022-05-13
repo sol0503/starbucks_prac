@@ -49,5 +49,5 @@ new Swiper('.notice-line .swiper-container',{
   slidesPerView : 'auto',
   direction:'vertical',
   autoplay:true,
-  loop:true
+  loop:true,
 });
