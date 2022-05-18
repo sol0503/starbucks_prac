@@ -461,7 +461,7 @@ header .badges .badge{
 
 /* REWARDS */
 .rewards{
-
+  position: relative;
 }
 .rewards .bg-left{
   width: 50%;
