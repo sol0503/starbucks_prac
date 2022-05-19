@@ -129,3 +129,6 @@ spyEls.forEach(function(spyEl){
     .setClassToggle(spyEl,'show')
     .addTo(new ScrollMagic.Controller());
 });
+
+const thisYear=document.querySelector('.this-year');
+thisYear.textContent=new Date().getFullYear(); //현재 연도 표시
